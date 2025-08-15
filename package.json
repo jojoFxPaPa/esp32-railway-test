@@ -1,0 +1,23 @@
+{
+  "name": "railway-esp32-telegram",
+  "version": "1.0.0",
+  "description": "Railway server for ESP32 and Telegram webhook testing",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": ["railway", "esp32", "telegram", "webhook"],
+  "author": "ESP32 Developer",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
